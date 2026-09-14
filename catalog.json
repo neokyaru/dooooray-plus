@@ -2,6 +2,26 @@
   "schemaVersion": 1,
   "packs": [
     {
+      "id": "계속 업데이트될 잡도리콘",
+      "manifest": "packs/계속 업데이트될 잡도리콘/pack.json"
+    },
+    {
+      "id": "고양이펀치",
+      "manifest": "packs/고양이펀치/pack.json"
+    },
+    {
+      "id": "괴렘콘 수분팩 -1-",
+      "manifest": "packs/괴렘콘 수분팩 -1-/pack.json"
+    },
+    {
+      "id": "내가쓰고싶어만든끄덕콘",
+      "manifest": "packs/내가쓰고싶어만든끄덕콘/pack.json"
+    },
+    {
+      "id": "냥냥이 50",
+      "manifest": "packs/냥냥이 50/pack.json"
+    },
+    {
       "id": "다양한 감정표현",
       "manifest": "packs/다양한 감정표현/pack.json"
     },
@@ -16,6 +36,14 @@
     {
       "id": "돚거] 니케 레니콘 + 홍련짭탕콘",
       "manifest": "packs/돚거] 니케 레니콘 + 홍련짭탕콘/pack.json"
+    },
+    {
+      "id": "루라랑 말랑미니봇치",
+      "manifest": "packs/루라랑 말랑미니봇치/pack.json"
+    },
+    {
+      "id": "무한도전 자막콘",
+      "manifest": "packs/무한도전 자막콘/pack.json"
     },
     {
       "id": "범용성이 높은 콘",
@@ -40,6 +68,18 @@
     {
       "id": "실전가치주식투자콘",
       "manifest": "packs/실전가치주식투자콘/pack.json"
+    },
+    {
+      "id": "실전대공황주식콘",
+      "manifest": "packs/실전대공황주식콘/pack.json"
+    },
+    {
+      "id": "싱글벙글 댕냥콘 2",
+      "manifest": "packs/싱글벙글 댕냥콘 2/pack.json"
+    },
+    {
+      "id": "움직이는 준표콘",
+      "manifest": "packs/움직이는 준표콘/pack.json"
     },
     {
       "id": "움직이는 차트콘",
@@ -70,6 +110,10 @@
       "manifest": "packs/짜그라진 아코콘 0/pack.json"
     },
     {
+      "id": "짱구아빠점심콘",
+      "manifest": "packs/짱구아빠점심콘/pack.json"
+    },
+    {
       "id": "창고 아로나콘 울트라",
       "manifest": "packs/창고 아로나콘 울트라/pack.json"
     },
@@ -82,8 +126,28 @@
       "manifest": "packs/창고던파 지에엥콘/pack.json"
     },
     {
+      "id": "치지직콘 돚거",
+      "manifest": "packs/치지직콘 돚거/pack.json"
+    },
+    {
+      "id": "트릭컬 자글볼글콘",
+      "manifest": "packs/트릭컬 자글볼글콘/pack.json"
+    },
+    {
+      "id": "표독 아리스콘",
+      "manifest": "packs/표독 아리스콘/pack.json"
+    },
+    {
+      "id": "햄스터콘",
+      "manifest": "packs/햄스터콘/pack.json"
+    },
+    {
       "id": "현실말딸2",
       "manifest": "packs/현실말딸2/pack.json"
+    },
+    {
+      "id": "환도상어콘",
+      "manifest": "packs/환도상어콘/pack.json"
     }
   ]
 }

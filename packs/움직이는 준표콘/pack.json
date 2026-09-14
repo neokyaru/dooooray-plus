@@ -1,0 +1,83 @@
+{
+  "id": "움직이는 준표콘",
+  "name": "움직이는 준표콘",
+  "version": 1,
+  "icon": "01.gif",
+  "items": [
+    {
+      "id": "01",
+      "label": "01",
+      "file": "01.gif"
+    },
+    {
+      "id": "02",
+      "label": "02",
+      "file": "02.gif"
+    },
+    {
+      "id": "03",
+      "label": "03",
+      "file": "03.gif"
+    },
+    {
+      "id": "04",
+      "label": "04",
+      "file": "04.gif"
+    },
+    {
+      "id": "05",
+      "label": "05",
+      "file": "05.gif"
+    },
+    {
+      "id": "06",
+      "label": "06",
+      "file": "06.gif"
+    },
+    {
+      "id": "07",
+      "label": "07",
+      "file": "07.gif"
+    },
+    {
+      "id": "08",
+      "label": "08",
+      "file": "08.gif"
+    },
+    {
+      "id": "09",
+      "label": "09",
+      "file": "09.gif"
+    },
+    {
+      "id": "10",
+      "label": "10",
+      "file": "10.gif"
+    },
+    {
+      "id": "11",
+      "label": "11",
+      "file": "11.gif"
+    },
+    {
+      "id": "12",
+      "label": "12",
+      "file": "12.gif"
+    },
+    {
+      "id": "13",
+      "label": "13",
+      "file": "13.gif"
+    },
+    {
+      "id": "14",
+      "label": "14",
+      "file": "14.gif"
+    },
+    {
+      "id": "15",
+      "label": "15",
+      "file": "15.gif"
+    }
+  ]
+}
