@@ -1,0 +1,23 @@
+{
+  "manifest": {
+    "schema": 1,
+    "version": "3.5.3",
+    "minLoader": 2,
+    "archive": "theme-3.5.3.zip",
+    "size": 49638,
+    "sha256": "9dc60a1498dd367460d2304fa6ff01ab918bbe1c18281756f7be264fd1ddd746",
+    "files": {
+      "app/compatibility.mjs": "c6691947b6ce2654ae181b970925e20373cd0a7d03b2e8a28f010825238d0ade",
+      "app/custom-emoticons.js": "b5bb0de45bec961305ac3768c3b0d55e20b103a146db0ca8f67bebe744280486",
+      "app/download-helper.mjs": "25247bda9f4253728eb38e62227c9b896426f934b5153d3af7bdef68a305302e",
+      "app/download-paths.mjs": "74efd017beee0a968209f686b250fe539ed04c5727e306c184797afdf8424e97",
+      "app/download-settings.mjs": "65ccbf57bb5890adac351c4ecc29820c6def93905e7d70f462fdf39567979f7e",
+      "app/emoticon-repository.mjs": "d855f46ffd648c81459ed575ec677f14362922c2e15f03d217b532b1581a9417",
+      "app/launcher.mjs": "ca7aa955174d4693ffb8c67505d486921a977f3c99b7c86bc2470a4ca7e53389",
+      "app/open-download-folder.ps1": "09d908aa3a5fc807275def91aee1dbbbdf98c371f50461d92077cc58500e4bff",
+      "app/select-download-folder.ps1": "7af5dfbe65da28fc31c4de961901a2e56d7970ffd0176e8b0550020ba0752b91",
+      "app/theme.js": "315e10045f5d3271c5bbce2fe454662526c96d1e1000e3ef531f497499767b64"
+    }
+  },
+  "signature": "zF8kphGe0ubKztLRW7WogTLsmP4LL0WTdBmdt5oum5ubmybtuVc4HW6YXij2KrmbNX4jDQpaDM9KJDysyn7qCA=="
+}
