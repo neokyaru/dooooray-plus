@@ -2,26 +2,26 @@
   "manifest": {
     "schema": 2,
     "bootProtocol": 1,
-    "version": "3.7.1",
-    "archive": "theme-3.7.1.zip",
-    "size": 59364,
-    "sha256": "be9f538876328effaac7ca0985a75ba184ec835f2a03b266be814b66d30b49f5",
+    "version": "3.7.2",
+    "archive": "theme-3.7.2.zip",
+    "size": 60597,
+    "sha256": "1fb61fec6e13a322d207407851debca5eb899c0e6a2453ca6652e54b28ee9ae8",
     "files": {
-      "app/compatibility.mjs": "650af25332562df9680cc3be6d7a8c22e48e922f9096ce42d0243583d6b1407e",
-      "app/custom-emoticons.js": "1c37c965a6349b3e1f122563cb8e5ca671e7ee8413e04333e63ef32ee71222b3",
+      "app/compatibility.mjs": "1cf57bbdee0846f9865ba6062a5ef202945af3577714c58335c19c21e6c54d20",
+      "app/custom-emoticons.js": "ba2311304e6215756aacdd622034773a57244e7740c38ca6c14ed92c76b9005a",
       "app/download-helper.mjs": "601e8e724284146d7b6f3da404ea6b6cbf948d375f8ca608cd4c2e37ffca5c0b",
       "app/download-paths.mjs": "148e3db38da4778e8a3a7d3b9ca1f19454bd69badb886ac4ca2bca9c23688520",
       "app/download-settings.mjs": "65ccbf57bb5890adac351c4ecc29820c6def93905e7d70f462fdf39567979f7e",
       "app/emoticon-repository.mjs": "d855f46ffd648c81459ed575ec677f14362922c2e15f03d217b532b1581a9417",
       "app/focus-download-folder.ps1": "8d429392f6c017f81f498e072af3c57b9920dd5ca4b0c353db1c3f6437385e91",
-      "app/launcher.mjs": "090c619320352e215d25a2c8a0b6a02c4e0313a6484d33ebeee4db2ecee974f2",
+      "app/launcher.mjs": "f7bca5b631cfca5039662c6d075012f6866df7a4a413cb39211d3ba290784ed0",
       "app/open-download-folder.ps1": "09d908aa3a5fc807275def91aee1dbbbdf98c371f50461d92077cc58500e4bff",
       "app/select-download-folder.ps1": "73133a442f04f4773020999b22058de04b430fe0398d2106f437bedd23a73056",
-      "app/theme.js": "1f5eeff36ff6f86651466f46ce1a2f43d8d4fa179c049642a9d55ba4a84404bf",
+      "app/theme.js": "d8ead5ec725d16f3157b930c8167f87fccace4621a55dcadd699b72b89d6ea37",
       "app/update-store.mjs": "db29a1f2e294dc0bf4dc82973fc026b4c5f706b375c102dccdc89c48ef1d0bcb",
       "app/update-supervisor.mjs": "d78faf8ac2412923b35135da3b3f3d7bffc3bcb9a291f3ba964cc5322661c2f9",
       "app/window-focus.ps1": "aff910cd53d0f859164f2a492cca769d51a2d98beb90bb22b46a280abc2cccf9"
     }
   },
-  "signature": "vvEhLQymQcsy7QyNaokik9u/PbpRlBDtwCJAe106b59EmhXwfQgsN+C/aYkcDs7Vq+nHO3TvfDca1hIHZHS9Bg=="
+  "signature": "Usu1KHKCxsl8F4jKHN4VPkxNT6k87/71jBCkdsVTxUc7ZInwoCB1Jip5MzzFURmN71pJnH14IsXd1WOu2E1zBw=="
 }
