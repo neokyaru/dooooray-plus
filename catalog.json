@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "다양한 감정표현",
+      "manifest": "packs/다양한 감정표현/pack.json"
+    },
+    {
+      "id": "더 새로워진 신비한 캬루콘 (통합)",
+      "manifest": "packs/더 새로워진 신비한 캬루콘 (통합)/pack.json"
+    },
+    {
+      "id": "동글동글 블아콘",
+      "manifest": "packs/동글동글 블아콘/pack.json"
+    },
+    {
+      "id": "돚거] 니케 레니콘 + 홍련짭탕콘",
+      "manifest": "packs/돚거] 니케 레니콘 + 홍련짭탕콘/pack.json"
+    },
+    {
+      "id": "범용성이 높은 콘",
+      "manifest": "packs/범용성이 높은 콘/pack.json"
+    },
+    {
+      "id": "블루아카콘!",
+      "manifest": "packs/블루아카콘!/pack.json"
+    },
+    {
+      "id": "스타레일 삼칠이콘",
+      "manifest": "packs/스타레일 삼칠이콘/pack.json"
+    },
+    {
+      "id": "신비한고양이콘",
+      "manifest": "packs/신비한고양이콘/pack.json"
+    },
+    {
+      "id": "실전가치주식콘-리턴즈2",
+      "manifest": "packs/실전가치주식콘-리턴즈2/pack.json"
+    },
+    {
+      "id": "실전가치주식투자콘",
+      "manifest": "packs/실전가치주식투자콘/pack.json"
+    },
+    {
+      "id": "움직이는 차트콘",
+      "manifest": "packs/움직이는 차트콘/pack.json"
+    },
+    {
+      "id": "움직이는 페페콘 돚거",
+      "manifest": "packs/움직이는 페페콘 돚거/pack.json"
+    },
+    {
+      "id": "이상한 동물농장",
+      "manifest": "packs/이상한 동물농장/pack.json"
+    },
+    {
+      "id": "자주쓰는 페페콘 2022 3",
+      "manifest": "packs/자주쓰는 페페콘 2022 3/pack.json"
+    },
+    {
+      "id": "젠레스 노르마콘",
+      "manifest": "packs/젠레스 노르마콘/pack.json"
+    },
+    {
+      "id": "주식콘2",
+      "manifest": "packs/주식콘2/pack.json"
+    },
+    {
+      "id": "짜그라진 아코콘 0",
+      "manifest": "packs/짜그라진 아코콘 0/pack.json"
+    },
+    {
+      "id": "창고 아로나콘 울트라",
+      "manifest": "packs/창고 아로나콘 울트라/pack.json"
+    },
+    {
+      "id": "창고 캬루콘",
+      "manifest": "packs/창고 캬루콘/pack.json"
+    },
+    {
+      "id": "창고던파 지에엥콘",
+      "manifest": "packs/창고던파 지에엥콘/pack.json"
+    },
+    {
+      "id": "현실말딸2",
+      "manifest": "packs/현실말딸2/pack.json"
+    }
+  ]
+}
