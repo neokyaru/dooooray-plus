@@ -1,25 +1,25 @@
 {
   "manifest": {
     "schema": 1,
-    "version": "3.5.5",
-    "minLoader": 2,
-    "archive": "theme-3.5.5.zip",
-    "size": 51549,
-    "sha256": "590bf2ef89b7e35c3ff8005a2acea458fe6e332aaa49776351cc5852809c9870",
+    "version": "3.6.0",
+    "minLoader": 3,
+    "archive": "theme-3.6.0.zip",
+    "size": 52900,
+    "sha256": "e6f08b363006a1342722e3b6e74261e1b6ddf7dcba3404e70ebb8745465f87a1",
     "files": {
-      "app/compatibility.mjs": "59ed4176498ed11b1fa36d718a1484c100b9ca613095b03c53843bf59c99569e",
-      "app/custom-emoticons.js": "b5bb0de45bec961305ac3768c3b0d55e20b103a146db0ca8f67bebe744280486",
-      "app/download-helper.mjs": "25247bda9f4253728eb38e62227c9b896426f934b5153d3af7bdef68a305302e",
+      "app/compatibility.mjs": "2a48e656d28ce982ad4acf2de219e913d8ea873f97ad697b720fb489b58bec83",
+      "app/custom-emoticons.js": "98af728ef478362c88cfae31dc6a04a6fbd656788f173e57c9206f019567ceae",
+      "app/download-helper.mjs": "601e8e724284146d7b6f3da404ea6b6cbf948d375f8ca608cd4c2e37ffca5c0b",
       "app/download-paths.mjs": "148e3db38da4778e8a3a7d3b9ca1f19454bd69badb886ac4ca2bca9c23688520",
       "app/download-settings.mjs": "65ccbf57bb5890adac351c4ecc29820c6def93905e7d70f462fdf39567979f7e",
       "app/emoticon-repository.mjs": "d855f46ffd648c81459ed575ec677f14362922c2e15f03d217b532b1581a9417",
       "app/focus-download-folder.ps1": "8d429392f6c017f81f498e072af3c57b9920dd5ca4b0c353db1c3f6437385e91",
-      "app/launcher.mjs": "6f234cfa10b32e0a7e28d2c261b99d9718bab65dc35def4d2aeb8d52b3f682ff",
+      "app/launcher.mjs": "a669ce46950d403db2013686a7313cb453d9f70a6a2be965bfd4731b59e40462",
       "app/open-download-folder.ps1": "09d908aa3a5fc807275def91aee1dbbbdf98c371f50461d92077cc58500e4bff",
       "app/select-download-folder.ps1": "73133a442f04f4773020999b22058de04b430fe0398d2106f437bedd23a73056",
-      "app/theme.js": "3693683d6e8e8561041000d365c0f26477803e0c8c5d397fe4c197e7e577e93b",
+      "app/theme.js": "33dbab985100b52608262f76cc12d6597444eec7163dc31938ab834a5c5bdfe7",
       "app/window-focus.ps1": "aff910cd53d0f859164f2a492cca769d51a2d98beb90bb22b46a280abc2cccf9"
     }
   },
-  "signature": "cjoOmB0HZ13eIhQTNcC+YGfJoaR4bCA1O9oItN1WNztUpceVoXEHvTUV6qRLlQCjCdVvpGopWd5XciAxLK3LAA=="
+  "signature": "5vgjh2ZVXKhTaAkwMT22MyG6Qy6hbziW+N8M0IrGuAZG5QtzvFnA0PW4ktcs8PmP0n4nvmN3LZzqR8moKbWeDA=="
 }
