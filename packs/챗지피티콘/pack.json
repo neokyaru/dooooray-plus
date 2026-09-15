@@ -1,0 +1,73 @@
+{
+  "id": "챗지피티콘",
+  "name": "챗지피티콘",
+  "version": 1,
+  "icon": "01.jpg",
+  "items": [
+    {
+      "id": "01",
+      "label": "01",
+      "file": "01.jpg"
+    },
+    {
+      "id": "02",
+      "label": "02",
+      "file": "02.jpg"
+    },
+    {
+      "id": "03",
+      "label": "03",
+      "file": "03.jpg"
+    },
+    {
+      "id": "04",
+      "label": "04",
+      "file": "04.jpg"
+    },
+    {
+      "id": "05",
+      "label": "05",
+      "file": "05.jpg"
+    },
+    {
+      "id": "06",
+      "label": "06",
+      "file": "06.jpg"
+    },
+    {
+      "id": "07",
+      "label": "07",
+      "file": "07.jpg"
+    },
+    {
+      "id": "08",
+      "label": "08",
+      "file": "08.jpg"
+    },
+    {
+      "id": "09",
+      "label": "09",
+      "file": "09.jpg"
+    },
+    {
+      "id": "10",
+      "label": "10",
+      "file": "10.jpg"
+    },
+    {
+      "id": "11",
+      "label": "11",
+      "file": "11.jpg"
+    },
+    {
+      "id": "12",
+      "label": "12",
+      "file": "12.jpg"
+    },
+    {
+      "id": "13",
+      "label": "13",
+      "file": "13.jpg"
+    }
+  ]
+}
