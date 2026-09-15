@@ -2,19 +2,19 @@
   "manifest": {
     "schema": 1,
     "minLoader": 2,
-    "version": "3.7.7",
-    "archive": "theme-3.7.7.zip",
-    "size": 73141,
-    "sha256": "ad03a0ab3598ffaf68a36a8be92d497d800b120e2b68ab2e23d68c2cb2af708c",
+    "version": "3.7.8",
+    "archive": "theme-3.7.8.zip",
+    "size": 78207,
+    "sha256": "74e003d07431902ed7dc9d362d240d1bf0b0f192cd5258f9248e40f52a3b6d99",
     "files": {
       "app/boot-store.mjs": "c51ea3a98d73b11a6a3d0fb2a1aa0ef69438a1344295c8704c35629fecd7cbe2",
       "app/bridge-bootstrap.mjs": "7a6990ab0d9284420aa146d9ef09472acbe23e048273cc3bd04a4bd1c2a0acae",
-      "app/bridge-seed.json": "af6285d7ab817d2f40ac8ad811cb924238a9a23dcbd28fdc05d7bd39ddd2060a",
+      "app/bridge-seed.json": "18106e4e8291c037a4c4c4cf2438fa878df59334c1dabae76e0e439925979ba7",
       "app/compatibility.mjs": "79fb4263161ca0dcfb86cbfecc593ed4a131ab541df0ba43306ca000fe5aa073",
       "app/download-helper.mjs": "79fb4263161ca0dcfb86cbfecc593ed4a131ab541df0ba43306ca000fe5aa073",
       "app/launcher.mjs": "8d30a97d80855f95646295b6bba33aac19496103dde51c56e11892911de6b1c5",
       "app/theme.js": "79fb4263161ca0dcfb86cbfecc593ed4a131ab541df0ba43306ca000fe5aa073"
     }
   },
-  "signature": "qY6DyqrYVEcsW8/FfS2zkSx3GvrDlxpdx3DQeWkMkS0OIdnhGz4MwThGzHRZwuRD/IUMbnIc8U7IeVEbNzzyDQ=="
+  "signature": "fKGvYwvydVFheYB/NhlYxk52q2KxWrfMWStg0XB/vRshsNeBFT8YECf3276NZO5YIy2c3LeMg0jZWUYU3YVdCw=="
 }
