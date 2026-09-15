@@ -1,0 +1,173 @@
+{
+  "id": "개인용 냥콘",
+  "name": "개인용 냥콘",
+  "version": 1,
+  "icon": "01.png",
+  "items": [
+    {
+      "id": "01",
+      "label": "01",
+      "file": "01.png"
+    },
+    {
+      "id": "02",
+      "label": "02",
+      "file": "02.png"
+    },
+    {
+      "id": "03",
+      "label": "03",
+      "file": "03.png"
+    },
+    {
+      "id": "04",
+      "label": "04",
+      "file": "04.png"
+    },
+    {
+      "id": "05",
+      "label": "05",
+      "file": "05.png"
+    },
+    {
+      "id": "06",
+      "label": "06",
+      "file": "06.png"
+    },
+    {
+      "id": "07",
+      "label": "07",
+      "file": "07.png"
+    },
+    {
+      "id": "08",
+      "label": "08",
+      "file": "08.png"
+    },
+    {
+      "id": "09",
+      "label": "09",
+      "file": "09.png"
+    },
+    {
+      "id": "10",
+      "label": "10",
+      "file": "10.png"
+    },
+    {
+      "id": "11",
+      "label": "11",
+      "file": "11.png"
+    },
+    {
+      "id": "12",
+      "label": "12",
+      "file": "12.png"
+    },
+    {
+      "id": "13",
+      "label": "13",
+      "file": "13.png"
+    },
+    {
+      "id": "14",
+      "label": "14",
+      "file": "14.png"
+    },
+    {
+      "id": "15",
+      "label": "15",
+      "file": "15.gif"
+    },
+    {
+      "id": "16",
+      "label": "16",
+      "file": "16.png"
+    },
+    {
+      "id": "17",
+      "label": "17",
+      "file": "17.png"
+    },
+    {
+      "id": "18",
+      "label": "18",
+      "file": "18.png"
+    },
+    {
+      "id": "19",
+      "label": "19",
+      "file": "19.png"
+    },
+    {
+      "id": "20",
+      "label": "20",
+      "file": "20.gif"
+    },
+    {
+      "id": "21",
+      "label": "21",
+      "file": "21.png"
+    },
+    {
+      "id": "22",
+      "label": "22",
+      "file": "22.png"
+    },
+    {
+      "id": "23",
+      "label": "23",
+      "file": "23.gif"
+    },
+    {
+      "id": "24",
+      "label": "24",
+      "file": "24.gif"
+    },
+    {
+      "id": "25",
+      "label": "25",
+      "file": "25.gif"
+    },
+    {
+      "id": "26",
+      "label": "26",
+      "file": "26.png"
+    },
+    {
+      "id": "27",
+      "label": "27",
+      "file": "27.png"
+    },
+    {
+      "id": "28",
+      "label": "28",
+      "file": "28.png"
+    },
+    {
+      "id": "29",
+      "label": "29",
+      "file": "29.gif"
+    },
+    {
+      "id": "30",
+      "label": "30",
+      "file": "30.gif"
+    },
+    {
+      "id": "31",
+      "label": "31",
+      "file": "31.gif"
+    },
+    {
+      "id": "32",
+      "label": "32",
+      "file": "32.gif"
+    },
+    {
+      "id": "33",
+      "label": "33",
+      "file": "33.gif"
+    }
+  ]
+}
