@@ -1,0 +1,16 @@
+{
+  "manifest": {
+    "schema": 1,
+    "version": "3.8.1",
+    "file": "DoorayPlus-3.8.1-Setup.exe",
+    "size": 33205248,
+    "sha256": "6c5733fc8a4f173ca9a4422f0e347fdeb0b4235b0ed3373a4536ed9e36561559",
+    "required": false,
+    "hostFiles": {
+      "launcher.mjs": "5a6a1742d6e48b447c08a74a36685a67e739dde8c722505cee09ef45a3fe51ac",
+      "boot-store.mjs": "d6fdfa08290ed73b74d69373005f2503931bd633abd771b8f5ef2adbbccded52",
+      "update-public.pem": "f0bcfad3beb4de9493c4bad78d3725b5cf90e79f7da8efa36b34db1a3f53fdec"
+    }
+  },
+  "signature": "rt2Bmmscrcl74v/fgk2kstsU3JhHlkxXLkPrhVI2nbgWzawOxs/XgBiR4izhHc3MecOKoAue7sdzkEVAlHDdBg=="
+}
