@@ -34,6 +34,10 @@
       "manifest": "packs/껍질-미리 깐 달걀 콘 (총모음집)/pack.json"
     },
     {
+      "id": "나노 야니네코콘",
+      "manifest": "packs/나노 야니네코콘/pack.json"
+    },
+    {
       "id": "내가쓰고싶어만든끄덕콘",
       "manifest": "packs/내가쓰고싶어만든끄덕콘/pack.json"
     },
@@ -110,6 +114,10 @@
       "manifest": "packs/블루아카콘!/pack.json"
     },
     {
+      "id": "샌달 야니네코콘",
+      "manifest": "packs/샌달 야니네코콘/pack.json"
+    },
+    {
       "id": "스타레일 삼칠이콘",
       "manifest": "packs/스타레일 삼칠이콘/pack.json"
     },
@@ -136,6 +144,10 @@
     {
       "id": "싱글벙글 댕냥콘 2",
       "manifest": "packs/싱글벙글 댕냥콘 2/pack.json"
+    },
+    {
+      "id": "야니네코미니애니",
+      "manifest": "packs/야니네코미니애니/pack.json"
     },
     {
       "id": "움직이는 준표콘",
