@@ -1,0 +1,418 @@
+{
+  "id": "뉴페페콘 2026",
+  "name": "뉴페페콘 2026",
+  "version": 1,
+  "icon": "01.png",
+  "items": [
+    {
+      "id": "01",
+      "label": "01",
+      "file": "01.png"
+    },
+    {
+      "id": "02",
+      "label": "02",
+      "file": "02.png"
+    },
+    {
+      "id": "03",
+      "label": "03",
+      "file": "03.gif"
+    },
+    {
+      "id": "04",
+      "label": "04",
+      "file": "04.png"
+    },
+    {
+      "id": "05",
+      "label": "05",
+      "file": "05.png"
+    },
+    {
+      "id": "06",
+      "label": "06",
+      "file": "06.png"
+    },
+    {
+      "id": "07",
+      "label": "07",
+      "file": "07.png"
+    },
+    {
+      "id": "08",
+      "label": "08",
+      "file": "08.png"
+    },
+    {
+      "id": "09",
+      "label": "09",
+      "file": "09.png"
+    },
+    {
+      "id": "10",
+      "label": "10",
+      "file": "10.png"
+    },
+    {
+      "id": "11",
+      "label": "11",
+      "file": "11.gif"
+    },
+    {
+      "id": "12",
+      "label": "12",
+      "file": "12.png"
+    },
+    {
+      "id": "13",
+      "label": "13",
+      "file": "13.gif"
+    },
+    {
+      "id": "14",
+      "label": "14",
+      "file": "14.png"
+    },
+    {
+      "id": "15",
+      "label": "15",
+      "file": "15.png"
+    },
+    {
+      "id": "16",
+      "label": "16",
+      "file": "16.png"
+    },
+    {
+      "id": "17",
+      "label": "17",
+      "file": "17.png"
+    },
+    {
+      "id": "18",
+      "label": "18",
+      "file": "18.png"
+    },
+    {
+      "id": "19",
+      "label": "19",
+      "file": "19.gif"
+    },
+    {
+      "id": "20",
+      "label": "20",
+      "file": "20.png"
+    },
+    {
+      "id": "21",
+      "label": "21",
+      "file": "21.png"
+    },
+    {
+      "id": "22",
+      "label": "22",
+      "file": "22.png"
+    },
+    {
+      "id": "23",
+      "label": "23",
+      "file": "23.png"
+    },
+    {
+      "id": "24",
+      "label": "24",
+      "file": "24.png"
+    },
+    {
+      "id": "25",
+      "label": "25",
+      "file": "25.png"
+    },
+    {
+      "id": "26",
+      "label": "26",
+      "file": "26.png"
+    },
+    {
+      "id": "27",
+      "label": "27",
+      "file": "27.png"
+    },
+    {
+      "id": "28",
+      "label": "28",
+      "file": "28.png"
+    },
+    {
+      "id": "29",
+      "label": "29",
+      "file": "29.png"
+    },
+    {
+      "id": "30",
+      "label": "30",
+      "file": "30.png"
+    },
+    {
+      "id": "31",
+      "label": "31",
+      "file": "31.png"
+    },
+    {
+      "id": "32",
+      "label": "32",
+      "file": "32.png"
+    },
+    {
+      "id": "33",
+      "label": "33",
+      "file": "33.png"
+    },
+    {
+      "id": "34",
+      "label": "34",
+      "file": "34.png"
+    },
+    {
+      "id": "35",
+      "label": "35",
+      "file": "35.png"
+    },
+    {
+      "id": "36",
+      "label": "36",
+      "file": "36.png"
+    },
+    {
+      "id": "37",
+      "label": "37",
+      "file": "37.png"
+    },
+    {
+      "id": "38",
+      "label": "38",
+      "file": "38.png"
+    },
+    {
+      "id": "39",
+      "label": "39",
+      "file": "39.png"
+    },
+    {
+      "id": "40",
+      "label": "40",
+      "file": "40.png"
+    },
+    {
+      "id": "41",
+      "label": "41",
+      "file": "41.png"
+    },
+    {
+      "id": "42",
+      "label": "42",
+      "file": "42.png"
+    },
+    {
+      "id": "43",
+      "label": "43",
+      "file": "43.png"
+    },
+    {
+      "id": "44",
+      "label": "44",
+      "file": "44.png"
+    },
+    {
+      "id": "45",
+      "label": "45",
+      "file": "45.png"
+    },
+    {
+      "id": "46",
+      "label": "46",
+      "file": "46.png"
+    },
+    {
+      "id": "47",
+      "label": "47",
+      "file": "47.png"
+    },
+    {
+      "id": "48",
+      "label": "48",
+      "file": "48.png"
+    },
+    {
+      "id": "49",
+      "label": "49",
+      "file": "49.png"
+    },
+    {
+      "id": "50",
+      "label": "50",
+      "file": "50.png"
+    },
+    {
+      "id": "51",
+      "label": "51",
+      "file": "51.png"
+    },
+    {
+      "id": "52",
+      "label": "52",
+      "file": "52.png"
+    },
+    {
+      "id": "53",
+      "label": "53",
+      "file": "53.png"
+    },
+    {
+      "id": "54",
+      "label": "54",
+      "file": "54.png"
+    },
+    {
+      "id": "55",
+      "label": "55",
+      "file": "55.png"
+    },
+    {
+      "id": "56",
+      "label": "56",
+      "file": "56.png"
+    },
+    {
+      "id": "57",
+      "label": "57",
+      "file": "57.png"
+    },
+    {
+      "id": "58",
+      "label": "58",
+      "file": "58.png"
+    },
+    {
+      "id": "59",
+      "label": "59",
+      "file": "59.png"
+    },
+    {
+      "id": "60",
+      "label": "60",
+      "file": "60.gif"
+    },
+    {
+      "id": "61",
+      "label": "61",
+      "file": "61.png"
+    },
+    {
+      "id": "62",
+      "label": "62",
+      "file": "62.png"
+    },
+    {
+      "id": "63",
+      "label": "63",
+      "file": "63.png"
+    },
+    {
+      "id": "64",
+      "label": "64",
+      "file": "64.png"
+    },
+    {
+      "id": "65",
+      "label": "65",
+      "file": "65.png"
+    },
+    {
+      "id": "66",
+      "label": "66",
+      "file": "66.png"
+    },
+    {
+      "id": "67",
+      "label": "67",
+      "file": "67.png"
+    },
+    {
+      "id": "68",
+      "label": "68",
+      "file": "68.png"
+    },
+    {
+      "id": "69",
+      "label": "69",
+      "file": "69.png"
+    },
+    {
+      "id": "70",
+      "label": "70",
+      "file": "70.png"
+    },
+    {
+      "id": "71",
+      "label": "71",
+      "file": "71.png"
+    },
+    {
+      "id": "72",
+      "label": "72",
+      "file": "72.png"
+    },
+    {
+      "id": "73",
+      "label": "73",
+      "file": "73.png"
+    },
+    {
+      "id": "74",
+      "label": "74",
+      "file": "74.png"
+    },
+    {
+      "id": "75",
+      "label": "75",
+      "file": "75.png"
+    },
+    {
+      "id": "76",
+      "label": "76",
+      "file": "76.png"
+    },
+    {
+      "id": "77",
+      "label": "77",
+      "file": "77.png"
+    },
+    {
+      "id": "78",
+      "label": "78",
+      "file": "78.png"
+    },
+    {
+      "id": "79",
+      "label": "79",
+      "file": "79.png"
+    },
+    {
+      "id": "80",
+      "label": "80",
+      "file": "80.png"
+    },
+    {
+      "id": "81",
+      "label": "81",
+      "file": "81.png"
+    },
+    {
+      "id": "82",
+      "label": "82",
+      "file": "82.png"
+    }
+  ]
+}

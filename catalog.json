@@ -22,6 +22,10 @@
       "manifest": "packs/괴렘콘 수분팩 -1-/pack.json"
     },
     {
+      "id": "괴렘콘 촉촉팩",
+      "manifest": "packs/괴렘콘 촉촉팩/pack.json"
+    },
+    {
       "id": "구구가가도로페비 AI잡탕콘",
       "manifest": "packs/구구가가도로페비 AI잡탕콘/pack.json"
     },
@@ -32,6 +36,10 @@
     {
       "id": "껍질-미리 깐 달걀 콘 (총모음집)",
       "manifest": "packs/껍질-미리 깐 달걀 콘 (총모음집)/pack.json"
+    },
+    {
+      "id": "꼬라보는동물콘",
+      "manifest": "packs/꼬라보는동물콘/pack.json"
     },
     {
       "id": "나노 야니네코콘",
@@ -62,8 +70,16 @@
       "manifest": "packs/누구나하나씩있는콘 2/pack.json"
     },
     {
+      "id": "뉴페페콘 2026",
+      "manifest": "packs/뉴페페콘 2026/pack.json"
+    },
+    {
       "id": "다양한 감정표현",
       "manifest": "packs/다양한 감정표현/pack.json"
+    },
+    {
+      "id": "담배고양이",
+      "manifest": "packs/담배고양이/pack.json"
     },
     {
       "id": "대호동콘 디럭스 에디션",
@@ -150,6 +166,14 @@
       "manifest": "packs/야니네코미니애니/pack.json"
     },
     {
+      "id": "야니카스",
+      "manifest": "packs/야니카스/pack.json"
+    },
+    {
+      "id": "영애뉴다리",
+      "manifest": "packs/영애뉴다리/pack.json"
+    },
+    {
       "id": "움직이는 준표콘",
       "manifest": "packs/움직이는 준표콘/pack.json"
     },
@@ -172,6 +196,10 @@
     {
       "id": "이상한 동물농장",
       "manifest": "packs/이상한 동물농장/pack.json"
+    },
+    {
+      "id": "이상한고양이콘",
+      "manifest": "packs/이상한고양이콘/pack.json"
     },
     {
       "id": "이재용콘",
@@ -228,6 +256,10 @@
     {
       "id": "천재고양이 마덕순",
       "manifest": "packs/천재고양이 마덕순/pack.json"
+    },
+    {
+      "id": "치지직 콘",
+      "manifest": "packs/치지직 콘/pack.json"
     },
     {
       "id": "치지직콘 돚거",
