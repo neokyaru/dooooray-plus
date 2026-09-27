@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "packs": [
     {
+      "id": "sigsegv",
+      "manifest": "packs/sigsegv/pack.json"
+    },
+    {
       "id": "개인용 냥콘",
       "manifest": "packs/개인용 냥콘/pack.json"
     },
@@ -16,6 +20,10 @@
     {
       "id": "고장난고양이콘",
       "manifest": "packs/고장난고양이콘/pack.json"
+    },
+    {
+      "id": "괴렘콘 수분팩",
+      "manifest": "packs/괴렘콘 수분팩/pack.json"
     },
     {
       "id": "괴렘콘 수분팩 -1-",
@@ -82,6 +90,10 @@
       "manifest": "packs/담배고양이/pack.json"
     },
     {
+      "id": "대상혁 페이커",
+      "manifest": "packs/대상혁 페이커/pack.json"
+    },
+    {
       "id": "대호동콘 디럭스 에디션",
       "manifest": "packs/대호동콘 디럭스 에디션/pack.json"
     },
@@ -110,12 +122,20 @@
       "manifest": "packs/루라랑 말랑미니봇치/pack.json"
     },
     {
+      "id": "리제로 4기 17화",
+      "manifest": "packs/리제로 4기 17화/pack.json"
+    },
+    {
       "id": "매직핸드 고양이",
       "manifest": "packs/매직핸드 고양이/pack.json"
     },
     {
       "id": "무한도전 자막콘",
       "manifest": "packs/무한도전 자막콘/pack.json"
+    },
+    {
+      "id": "미국 기업 로고콘",
+      "manifest": "packs/미국 기업 로고콘/pack.json"
     },
     {
       "id": "미쳐버린 고양이콘",
