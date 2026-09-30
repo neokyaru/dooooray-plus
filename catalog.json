@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "packs": [
     {
+      "id": "[a]까로롱음식콘",
+      "manifest": "packs/[a]까로롱음식콘/pack.json"
+    },
+    {
+      "id": "[a]음식추천하는도로롱",
+      "manifest": "packs/[a]음식추천하는도로롱/pack.json"
+    },
+    {
       "id": "sigsegv",
       "manifest": "packs/sigsegv/pack.json"
     },
@@ -182,12 +190,20 @@
       "manifest": "packs/싱글벙글 댕냥콘 2/pack.json"
     },
     {
+      "id": "야근각콘",
+      "manifest": "packs/야근각콘/pack.json"
+    },
+    {
       "id": "야니네코미니애니",
       "manifest": "packs/야니네코미니애니/pack.json"
     },
     {
       "id": "야니카스",
       "manifest": "packs/야니카스/pack.json"
+    },
+    {
+      "id": "어떤게임회사의어록콘",
+      "manifest": "packs/어떤게임회사의어록콘/pack.json"
     },
     {
       "id": "영애뉴다리",
@@ -208,6 +224,10 @@
     {
       "id": "웃는혁",
       "manifest": "packs/웃는혁/pack.json"
+    },
+    {
+      "id": "원신쇼츠콘",
+      "manifest": "packs/원신쇼츠콘/pack.json"
     },
     {
       "id": "이것저것 여러가지 콘",
@@ -286,6 +306,18 @@
       "manifest": "packs/치지직콘 돚거/pack.json"
     },
     {
+      "id": "캬돌이콘v1",
+      "manifest": "packs/캬돌이콘v1/pack.json"
+    },
+    {
+      "id": "컴퓨터 회사 디시콘",
+      "manifest": "packs/컴퓨터 회사 디시콘/pack.json"
+    },
+    {
+      "id": "코핀댄스콘",
+      "manifest": "packs/코핀댄스콘/pack.json"
+    },
+    {
       "id": "크아아아아악",
       "manifest": "packs/크아아아아악/pack.json"
     },
@@ -306,8 +338,20 @@
       "manifest": "packs/필장연 2탄/pack.json"
     },
     {
+      "id": "필장연 리바이브1",
+      "manifest": "packs/필장연 리바이브1/pack.json"
+    },
+    {
+      "id": "필장연 리바이브2",
+      "manifest": "packs/필장연 리바이브2/pack.json"
+    },
+    {
       "id": "핑구콘",
       "manifest": "packs/핑구콘/pack.json"
+    },
+    {
+      "id": "한글문자셋 자음모음",
+      "manifest": "packs/한글문자셋 자음모음/pack.json"
     },
     {
       "id": "햄스터콘",
