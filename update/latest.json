@@ -2,13 +2,13 @@
   "manifest": {
     "schema": 2,
     "bootProtocol": 1,
-    "version": "3.8.19",
-    "archive": "theme-3.8.19.zip",
-    "size": 119741,
-    "sha256": "d9f51c33ca1a95428ef96f72c34f63d7621c02aecc46589937a234464e52af2a",
+    "version": "3.8.22",
+    "archive": "theme-3.8.22.zip",
+    "size": 120759,
+    "sha256": "38ac0a384a75458f08761cae48a25d7f1bd4f18440c21890250239e35db0d708",
     "files": {
       "app/boot-policy.mjs": "8770ec8ecf5a6ce23c7d97d544936334ba8c7e35a437544c14d5373675637798",
-      "app/compatibility.mjs": "e1a2a476cd180437ae1314e33d7e1fa83b15d14e0b99c95b277e38f88eccfd3a",
+      "app/compatibility.mjs": "3096b9673cb71f3cbb0123169d2fa84328281ac882b2fae8b3df7ce3873b99f0",
       "app/custom-emoticons.js": "b9defa58500c0c195f5e984911039aa1d8393f87230ace1804bb3d202c9c05bc",
       "app/download-helper.mjs": "7900e946bf57351b6c32c89709d4abed951bacd10d5e6f6b621b9aa015d1898e",
       "app/download-paths.mjs": "e4cabbd0c02ae9a04ac86facf6da848b3cf225258ad422dc04b0b226603cd9aa",
@@ -17,17 +17,17 @@
       "app/focus-download-folder.ps1": "8d429392f6c017f81f498e072af3c57b9920dd5ca4b0c353db1c3f6437385e91",
       "app/inline-videos.js": "3dd9613057898fd9544c1128164de2f1f7ca11dbbbab501c7e492ff47ecd2067",
       "app/installer-update.mjs": "e674c95f1be00cab839169458a40f491586ab221dff0b4489d87426dbb2b51b2",
-      "app/launcher.mjs": "17e9598a352f6c5d5e12a78fbc07f20f98f9c92321a94b7a7317f651a25dbba8",
+      "app/launcher.mjs": "fa02a495c1d73ec16344c61a3f23572d1da91a64b1447e28ce666f1440e7a6c8",
       "app/open-download-folder.ps1": "09d908aa3a5fc807275def91aee1dbbbdf98c371f50461d92077cc58500e4bff",
       "app/room-customization.js": "a7d34d12c1be04cd3a07df355cc4ce4adbfce10b183685f4bf69009a977bf4b7",
       "app/select-download-folder.ps1": "73133a442f04f4773020999b22058de04b430fe0398d2106f437bedd23a73056",
-      "app/theme.js": "fc429743ca228b8bb076187da10570b0e8c6ba6a3bec02534e1c13a7d483877d",
+      "app/theme.js": "054580d7b5efa724076066fc0bf784c231f0bf8584203687891c6dfd1213624d",
       "app/update-handoff.mjs": "3cb8f36fe00f78b17761b12b23981672faac3ea83b518a5a1aa6196a344d1310",
-      "app/update-handoff.ps1": "adf94703357e792f57cca9b4fe2983eec1b2164a4dadd4934188ba4a6489712e",
+      "app/update-handoff.ps1": "7c0df2f52ffb1aae54781270e14359c8e0ab937476bdd6678d17f86816c2c41a",
       "app/update-store.mjs": "d76d2e2093366e69ebfe071e460ef7d24586943d20cf41018d81c9a761ada7f5",
       "app/update-supervisor.mjs": "524ff068f8581fa5099e3be21446a8539699d1b30996a1b0a303e4d5abe16ffe",
       "app/window-focus.ps1": "aff910cd53d0f859164f2a492cca769d51a2d98beb90bb22b46a280abc2cccf9"
     }
   },
-  "signature": "M39S1wneFek2S+rLTbX/yM+kXczMtbg08zqlqJ6AWkHVBOOFdwAfhmKsaHfbmmlngF4PyGALyqlphSmFc1h3BQ=="
+  "signature": "YCePM8vA7TgIgim0Snu5qf2TXTV3Uq9m7UYwuhJjOZuTruuRnD2Wd/KBZ+P7tKLarCbSAdlw/u5KdyyEbqwNBQ=="
 }
