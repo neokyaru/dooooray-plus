@@ -2,22 +2,12 @@
   "id": "고양이단또밴시",
   "name": "고양이단또밴시",
   "version": 1,
-  "icon": "01.webp",
+  "icon": "01.jpg",
   "items": [
     {
       "id": "01",
       "label": "01",
-      "file": "01.webp"
-    },
-    {
-      "id": "02",
-      "label": "02",
-      "file": "02.webp"
-    },
-    {
-      "id": "03",
-      "label": "03",
-      "file": "03.webp"
+      "file": "01.jpg"
     },
     {
       "id": "04",
@@ -225,11 +215,6 @@
       "file": "44.webp"
     },
     {
-      "id": "45",
-      "label": "45",
-      "file": "45.jpg"
-    },
-    {
       "id": "46",
       "label": "46",
       "file": "46.webp"
@@ -268,11 +253,6 @@
       "id": "53",
       "label": "53",
       "file": "53.webp"
-    },
-    {
-      "id": "54",
-      "label": "54",
-      "file": "54.jpg"
     }
   ]
 }
