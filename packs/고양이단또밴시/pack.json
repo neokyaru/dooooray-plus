@@ -10,6 +10,11 @@
       "file": "01.jpg"
     },
     {
+      "id": "02",
+      "label": "02",
+      "file": "02.jpg"
+    },
+    {
       "id": "04",
       "label": "04",
       "file": "04.webp"

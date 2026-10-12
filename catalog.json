@@ -230,6 +230,10 @@
       "manifest": "packs/움직이는 페페콘 돚거/pack.json"
     },
     {
+      "id": "웃긴 현수막 짤",
+      "manifest": "packs/웃긴 현수막 짤/pack.json"
+    },
+    {
       "id": "웃는혁",
       "manifest": "packs/웃는혁/pack.json"
     },
