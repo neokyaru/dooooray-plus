@@ -22,6 +22,10 @@
       "manifest": "packs/계속 업데이트될 잡도리콘/pack.json"
     },
     {
+      "id": "고양이단또밴시",
+      "manifest": "packs/고양이단또밴시/pack.json"
+    },
+    {
       "id": "고양이펀치",
       "manifest": "packs/고양이펀치/pack.json"
     },
@@ -124,6 +128,10 @@
     {
       "id": "로아 모코코콘2",
       "manifest": "packs/로아 모코코콘2/pack.json"
+    },
+    {
+      "id": "로컬LLM콘",
+      "manifest": "packs/로컬LLM콘/pack.json"
     },
     {
       "id": "루라랑 말랑미니봇치",
