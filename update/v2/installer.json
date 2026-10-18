@@ -1,16 +1,17 @@
 {
   "manifest": {
     "schema": 1,
-    "version": "3.8.22",
-    "file": "DoorayPlus-3.8.22-Setup.exe",
-    "size": 33345536,
-    "sha256": "1083a7ab10a14b7f21896f6507448d875bbed6de4bf5f11b09630844784350a9",
-    "required": false,
+    "version": "3.8.23",
+    "file": "DoorayPlus-3.8.23-Setup.exe",
+    "size": 33358848,
+    "sha256": "edd4675ba4b3069560fec31848c31e77e9a6e2509f079bef776580383a9cd32d",
+    "required": true,
+    "installLayout": "independent-user-v1",
     "hostFiles": {
       "launcher.mjs": "5a6a1742d6e48b447c08a74a36685a67e739dde8c722505cee09ef45a3fe51ac",
       "boot-store.mjs": "d6fdfa08290ed73b74d69373005f2503931bd633abd771b8f5ef2adbbccded52",
       "update-public.pem": "f0bcfad3beb4de9493c4bad78d3725b5cf90e79f7da8efa36b34db1a3f53fdec"
     }
   },
-  "signature": "/70IFUzki3S+LcUeqDZUXEQZAiLh5AlmfRURDXAk42SOEVb9sdhBpXH5GaD0NLt84VcSg6kTc4LLe6hKNYJlBw=="
+  "signature": "AitsheW0zjuF7Cdzle6Bw16z4a298hjNJoDD5oVS9wCCHZdaApDS9cIa4tzjiwhEFWx0ldNAc+mHBVZDDf/dCg=="
 }
