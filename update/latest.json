@@ -2,15 +2,15 @@
   "manifest": {
     "schema": 2,
     "bootProtocol": 1,
-    "version": "3.8.27",
-    "archive": "theme-3.8.27.zip",
-    "size": 168946,
-    "sha256": "c74a12d4f08951fd3d45179136e529d6772f3cf66435db79dca280a4af912ac4",
+    "version": "3.8.28",
+    "archive": "theme-3.8.28.zip",
+    "size": 170322,
+    "sha256": "811baccf7327668bf466f7f8cf6511e5cc24b4dbd7997c62ee47c48fdf95b051",
     "files": {
       "app/background-update-notice.mjs": "1b1a4f1a989591c4dbec6d52820e3cbf558c8dfed7fa716d7a118e1da8330340",
       "app/background-update-policy.mjs": "2f8ff7efd8f3a4cd82c74be13cdb3b0bf349db1d4603076d740d02d496967d61",
       "app/boot-policy.mjs": "8770ec8ecf5a6ce23c7d97d544936334ba8c7e35a437544c14d5373675637798",
-      "app/compatibility.mjs": "09da859cf3d02bc714924fc80c049b9e2cec4d56cb4cc0fb9111dec2682d743f",
+      "app/compatibility.mjs": "135b13ea9c29c173573b686af26755d89bd64a786f6c7ed741fa912dbff464cc",
       "app/custom-emoticons.js": "ca7b7959199d9ac59c6e3fef880c77466034dfd35e00e87c853cf8e41f6bec13",
       "app/download-helper.mjs": "36ac68dc2d0c8225e850cb513da8923d2424ec720c6f62d24474eb6ac26014a2",
       "app/download-paths.mjs": "e4cabbd0c02ae9a04ac86facf6da848b3cf225258ad422dc04b0b226603cd9aa",
@@ -19,7 +19,7 @@
       "app/focus-download-folder.ps1": "8d429392f6c017f81f498e072af3c57b9920dd5ca4b0c353db1c3f6437385e91",
       "app/inline-videos.js": "3bf28606b1d9b58fe9833d92ba3a20faa49ee081ae3a2df6eb5b5d0ebddcc3f8",
       "app/installer-update.mjs": "238712a857a1c138c9ef6258e2ab207d1ec752fd00c53eaccb71561e4592dceb",
-      "app/launcher.mjs": "877cccfd1ff915bf4f5e68857eb815df7e98e8d66ac2147d46e5862fb6114aef",
+      "app/launcher.mjs": "8733360d26073ca24d6fd76d1521731c1419c0f151dece9722514e6a9e24efdb",
       "app/native-dom.js": "b2df4dfa3d3f74de7d9a4e356056265c8f8dec39da001177628fcc516a42fbcd",
       "app/native-presence.mjs": "02068ee94795e1bdd5e938625563b356dae875a30f3da8cf235954f759d277b6",
       "app/open-download-folder.ps1": "09d908aa3a5fc807275def91aee1dbbbdf98c371f50461d92077cc58500e4bff",
@@ -28,14 +28,14 @@
       "app/recovery-notice.ps1": "df40b104b5f30330a1d90c6278ac60c98ce7ff2663bceff390ee50b7b6ed7fca",
       "app/room-customization.js": "f3ad9889fbf9869c659a81f19383169cc871784da0826b86cf1df6948913a6ee",
       "app/select-download-folder.ps1": "73133a442f04f4773020999b22058de04b430fe0398d2106f437bedd23a73056",
-      "app/theme.js": "fcc35d2f909cb8fafe417e1c04fe1412cde2ef925f670bba183e021f5c150266",
+      "app/theme.js": "906e0215bd0060067968cbee362a43a3942a71eb139e578d9881fc4439411a33",
       "app/update-handoff.mjs": "d140d77887bbb0e41a3bef4ab581d005f993ec25a250c241803c06d413d1aa7d",
-      "app/update-handoff.ps1": "7c0df2f52ffb1aae54781270e14359c8e0ab937476bdd6678d17f86816c2c41a",
+      "app/update-handoff.ps1": "90f1b9bdc67d2fa962c75172cc4f55e48731ae3a3eff9e3200c09acd8e1a8a6c",
       "app/update-notice.ps1": "5e61b9b185c39ee328bbd820f83af911052ce83c4dab150bdaed71d65ae8af2b",
       "app/update-store.mjs": "d76d2e2093366e69ebfe071e460ef7d24586943d20cf41018d81c9a761ada7f5",
       "app/update-supervisor.mjs": "c4d5f5b8f59278e4aa223cca1dc8a5aaa6aeae45a7cc6476bf9a76b7c4b78a94",
       "app/window-focus.ps1": "aff910cd53d0f859164f2a492cca769d51a2d98beb90bb22b46a280abc2cccf9"
     }
   },
-  "signature": "crHOyak5Zuflovp3XAEACVlTpDDiwhT57F7msfdRvFM+WCSjMDzGJqMvh8jiF97xtdkLF0bHU5s9AggCNYTQAA=="
+  "signature": "86dIjoSqUDq7nTCXxJnNeWW1NzDVswN00hYjb1I/GvY1dT8+NLOhUO5UMNbAt52L9uWHTcbul/h5/0OaIjhMDA=="
 }
