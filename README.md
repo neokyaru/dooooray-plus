@@ -1,0 +1,37 @@
+# 두레이 플러스 배포 저장소
+
+업데이트와 커스텀 이모티콘의 공개 배포 폴더입니다. Windows 작업 위치는 `C:\Users\GVNC\Documents\dooooray-plus`입니다. 프로그램 기능 원본/빌더와 개인 서명키는 별도의 `Documents\Codex\2026-09-14\d` 프로젝트에 있으며 이 저장소에 넣지 않습니다.
+
+## Windows에서 이모티콘 추가
+
+1. `packs` 아래에 새 팩 폴더를 만들고 PNG/GIF/JPG/WebP 파일을 넣습니다. 기존처럼 `01.gif`, `02.gif` 순서로 준비하면 됩니다. 한 이미지 최대 8MiB, 한 팩 최대 500개, 전체 최대 100팩입니다.
+2. `01-Register-New-Packs.cmd`를 실행하면 새 팩의 `pack.json`과 `catalog.json`을 만듭니다. 기존 팩에 이미지를 추가했다면 `script\update_pack.cmd "팩 이름"`을 실행하거나 해당 팩 폴더를 `update_pack.cmd`로 끌어 놓습니다.
+3. `02-Validate.cmd`로 파일 경로·형식·크기·중복과 업데이트 서명을 검사합니다.
+4. `03-Publish.cmd`를 실행하면 변경분을 커밋하고 GitHub `main`에 올립니다. 필요하면 Git Credential Manager에서 직접 로그인합니다. 토큰을 파일이나 저장소 주소에 넣지 않습니다.
+
+Python 3, Git for Windows, Node.js가 필요합니다. 이미지 리사이즈에만 Pillow가 추가로 필요하며 `py -3 -m pip install Pillow`로 설치할 수 있습니다. 도구가 패키지나 프로그램을 자동 설치하지는 않습니다. 파일을 읽기만 하며 미리 확인하려면 `script\run-python.cmd script\publish.py validate`를 사용합니다. 실제 경로 인수는 공백이 있으면 따옴표로 감쌉니다.
+
+## 기존 관리 기능
+
+- `script\number_workspace_files.cmd [폴더] --dry-run`: 기본 `workspace`의 이름 변경 계획을 봅니다. `--dry-run`을 빼면 번호를 실제 변경합니다. 이미지 내용과 확장자는 보존합니다.
+- `script\resize_pack_images.cmd [팩 이름] --dry-run`: 200×200 변환 대상을 봅니다. `--dry-run`을 빼면 실제 변환하며 원본은 `script\backups\resize-200`에 저장합니다. 기본은 비율 유지이며 GIF/APNG/WebP의 프레임과 재생 시간을 검증합니다. 폴더를 생략하면 모든 팩을 대상으로 하므로 먼저 미리보기를 실행합니다.
+- `script\update_new_packs.cmd`: 새 팩만 등록합니다.
+- `script\update_pack.cmd "팩 이름"`: 기존 팩을 갱신합니다.
+- `script\validate.cmd`: 읽기 전용 검증입니다.
+- `script\commit-push.cmd`: 검증·커밋·게시입니다. 로컬 커밋까지만 준비하려면 `script\run-python.cmd script\publish.py publish --no-push`를 실행합니다.
+
+`workspace`, 백업, 임시 파일, 개인키와 인증정보는 게시 대상에서 제외합니다. 검사 실패 시 커밋/업로드하지 않으며 이미 준비한 Git 스테이징은 사용자가 확인할 수 있도록 그대로 둡니다. 원본 이미지는 추가/갱신/게시만으로 리사이즈하거나 이름을 바꾸지 않습니다.
+
+## 이미지 버전과 캐시
+
+`emoticon-index.json`은 이미지가 들어 있는 고정 Git 커밋을 가리킵니다. 게시 도구는 실제 `packs`/`catalog.json` 변경이 있을 때만 이 ref를 갱신합니다. 프로그램 업데이트나 문서만 올려도 같은 이모티콘을 다시 받는 일을 줄이기 위한 구조입니다. 파일 경로와 기존 커밋 이력을 바꾸거나, ref를 임의의 최신 main으로 수정하지 않습니다. 과거 메시지와 즐겨찾기는 당시 커밋의 원본 파일을 사용합니다.
+
+기존 GitLab 이력과 SHA를 보존해 이전 메시지의 이미지를 GitHub에서 계속 읽을 수 있습니다. 새 클라이언트의 조회는 공개 GitHub raw 파일만 사용하며 이미지마다 GitHub REST API를 호출하지 않습니다. 서버가 429를 응답하면 안내된 시간 동안 새 요청을 중단하고 저장된 이미지는 계속 사용합니다.
+
+## 프로그램 업데이트 게시
+
+앱 소스 프로젝트에서 새 버전을 빌드·검증한 뒤 `DoorayPlus-버전-GitHub-upload.zip`을 이 폴더에 풀어 `update` 파일을 반영합니다. 이전 파일을 임의로 수정하거나 `latest.json`의 숫자만 바꾸지 않습니다. 서명이 맞지 않으면 게시 도구와 클라이언트가 거부합니다. `update-public.pem`은 공개 검증키이며 개인 서명키는 포함하지 않습니다.
+
+3.8.30 이하의 이미 설치된 클라이언트는 기존 GitLab 주소를 알고 있습니다. 마지막 서명 이전 패치를 기존 주소에 한 번 게시하거나 정식 incoming 캡슐과 플러스 호스트 재시작으로 3.8.31을 적용해야 새 GitHub 주소로 전환됩니다. 이 과정에 매번 EXE를 재설치할 필요는 없습니다. 소스가 바뀌기 전에 시작한 예전 업데이트 작업에는 새 동작이 소급 적용되지 않습니다.
+
+이 도구를 사용함으로써 발생하는 모든 문제는 사용자 책임입니다.
