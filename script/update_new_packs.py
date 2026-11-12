@@ -6,6 +6,7 @@ import sys
 
 sys.dont_write_bytecode = True
 from update_pack import normalized, pack_folders, read_catalog, repository_root, update_folders
+from pack_metadata import catalog_entries, reconcile_catalog, write_changes
 
 
 def main():
@@ -14,10 +15,15 @@ def main():
     try:
         root = repository_root()
         catalog = read_catalog(root)
-        registered = {normalized(entry['id']) for entry in catalog['packs']}
+        registered = {normalized(entry['id']) for entry in catalog_entries(catalog)}
         folders = [folder for pack_id, folder in pack_folders(root).items()
                    if pack_id not in registered or not (folder / 'pack.json').exists()]
         if not folders:
+            # A hand-edited password also needs the matching public/locked lane.
+            updated = reconcile_catalog(root, catalog)
+            if updated != catalog:
+                write_changes(root, {'catalog.json': updated})
+                print('catalog.json의 공개/암호 팩 구분을 동기화했습니다.')
             print('새로 등록하거나 생성할 팩이 없습니다.')
             return 0
         update_folders(root, folders, catalog)

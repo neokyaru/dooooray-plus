@@ -9,6 +9,7 @@ import sys
 sys.dont_write_bytecode = True
 import tempfile
 import unicodedata
+from pack_metadata import catalog_entries, protected, reconcile_catalog, write_changes
 
 
 IMAGE_EXTENSIONS = {'.jpg', '.jpeg', '.gif', '.png', '.webp'}
@@ -39,20 +40,7 @@ def read_json(path):
 def read_catalog(root):
     path = root / 'catalog.json'
     catalog = read_json(path) if path.exists() else {'schemaVersion': 1, 'packs': []}
-    if not isinstance(catalog, dict) or catalog.get('schemaVersion') != 1:
-        raise ValueError('catalog.json의 schemaVersion은 1이어야 합니다.')
-    if not isinstance(catalog.get('packs'), list):
-        raise ValueError('catalog.json의 packs는 배열이어야 합니다.')
-    seen = set()
-    for entry in catalog['packs']:
-        if (not isinstance(entry, dict)
-                or not isinstance(entry.get('id'), str) or not entry['id']
-                or not isinstance(entry.get('manifest'), str)):
-            raise ValueError('catalog.json의 팩 항목에는 id와 manifest가 필요합니다.')
-        pack_id = normalized(entry['id'])
-        if pack_id in seen:
-            raise ValueError(f'카탈로그에 중복된 팩 ID가 있습니다: {pack_id}')
-        seen.add(pack_id)
+    catalog_entries(catalog)
     return catalog
 
 
@@ -60,6 +48,8 @@ def pack_folders(root):
     packs = root / 'packs'
     if not packs.is_dir():
         raise ValueError(f'packs 폴더가 없습니다: {packs}')
+    if linked(packs):
+        raise ValueError('Linked packs root is not allowed.')
     folders = {}
     for folder in sorted(packs.iterdir(), key=lambda path: normalized(path.name)):
         if linked(folder):
@@ -104,6 +94,7 @@ def build_manifest(folder):
     pack_id = normalized(folder.name)
     manifest.update(id=pack_id, name=pack_id, version=version,
                     icon=items[0]['file'], items=items)
+    protected(manifest)
     return manifest
 
 
@@ -129,20 +120,28 @@ def write_json(path, data):
 def update_folders(root, folders, catalog):
     # 전체 대상의 형식과 중복을 먼저 확인한 다음 파일을 씁니다.
     planned = [(folder, build_manifest(folder)) for folder in folders]
-    entries = {normalized(entry['id']): dict(entry) for entry in catalog['packs']}
+    overrides = {}
+    additions = []
     for folder, manifest in planned:
         pack_id = manifest['id']
-        entry = entries.setdefault(pack_id, {})
-        entry.update(id=pack_id, manifest=folder.relative_to(root).as_posix() + '/pack.json')
-    catalog['packs'] = [entries[key] for key in sorted(entries)]
+        relative = folder.relative_to(root).as_posix() + '/pack.json'
+        overrides[relative] = manifest
+        additions.append({'id': pack_id, 'manifest': relative})
+    updated = reconcile_catalog(root, catalog, overrides, additions)
+    changes = {'catalog.json': updated, **overrides}
+    before = {name: (root / name).read_bytes() if (root / name).exists() else None for name in changes}
+    backup = write_changes(root, changes)
     for folder, manifest in planned:
         path = folder / 'pack.json'
-        existed = path.exists()
-        changed = write_json(path, manifest)
+        original = before[folder.relative_to(root).as_posix() + '/pack.json']
+        existed = original is not None
+        changed = original != path.read_bytes()
         action = ('갱신' if existed else '생성') if changed else '변경 없음'
         print(f'{action}: {manifest["id"]} — 이미지 {len(manifest["items"])}개')
-    changed = write_json(root / 'catalog.json', catalog)
-    print(f'catalog.json: {"갱신" if changed else "변경 없음"} — 총 {len(entries)}개 팩')
+    changed = before['catalog.json'] != (root / 'catalog.json').read_bytes()
+    print(f'catalog.json: {"갱신" if changed else "변경 없음"} — 총 {len(catalog_entries(updated))}개 팩')
+    if backup:
+        print('원본 metadata 백업: ' + str(backup))
 
 
 def select_folder(root, value):

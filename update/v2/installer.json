@@ -1,10 +1,10 @@
 {
   "manifest": {
     "schema": 1,
-    "version": "3.8.33",
-    "file": "DoorayPlus-3.8.33-Setup.exe",
-    "size": 33430528,
-    "sha256": "dbc4173f05b543476636930948f34a65fcad1a6fd5cc105350cee1527b6d523f",
+    "version": "3.8.34",
+    "file": "DoorayPlus-3.8.34-Setup.exe",
+    "size": 33454592,
+    "sha256": "b33c48fb798742acb9ac9cd5e7641556b2147d8652e13c187771af902a27d262",
     "required": false,
     "installLayout": "independent-user-v1",
     "hostFiles": {
@@ -13,5 +13,5 @@
       "update-public.pem": "f0bcfad3beb4de9493c4bad78d3725b5cf90e79f7da8efa36b34db1a3f53fdec"
     }
   },
-  "signature": "FiZ7rzUl7w4YPjlTt8OlYt3lD7i+SH9yefq8OgsLqbEFqgup2zSRmpbXURc6phpeoFPNS7d2bc4xAcP7Tg4AAQ=="
+  "signature": "4/OyQcbwF6qJkwy3yzFarwZTn4KbzXt902NSZ1rtJn/uNOIhWIj7iZMasddYu37OIFqkXLq5BQ4M+Hk9Ymo3CA=="
 }
