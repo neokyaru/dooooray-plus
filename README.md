@@ -19,6 +19,8 @@
 
 Python 3, Git for Windows, Node.js가 필요합니다. 이미지 리사이즈에만 Pillow가 추가로 필요하며 `py -3 -m pip install Pillow`로 설치할 수 있습니다. 도구가 패키지나 프로그램을 자동 설치하지는 않습니다. 파일을 읽기만 하며 미리 확인하려면 `script\run-python.cmd script\publish.py validate`를 사용합니다. 실제 경로 인수는 공백이 있으면 따옴표로 감쌉니다.
 
+셸 스크립트(`.sh`)는 UTF-8/LF로, Windows 명령 파일(`.cmd`)은 CRLF로 유지합니다. `.gitattributes`와 `.editorconfig`가 이 규칙을 지정합니다. 관리도구 ZIP도 셸 줄바꿈을 LF로 정규화하고 실행 권한을 포함해 만듭니다. 이전 ZIP에서 `/bin/bash^M` 오류가 발생하면 수정된 `Emoticon-Tools-LF.zip`을 사용합니다. Linux/macOS에서는 필요한 Python 3·Git·Node.js를 준비한 뒤 `bash script/commit-push.sh`로 게시할 수도 있습니다.
+
 ## 팩 암호 설정 (3.8.34부터)
 
 Git Bash에서 `script/set_pack_password.sh`, Windows에서는 `script\set_pack_password.cmd`를 실행합니다. 번호 목록에서 `1,3-5`처럼 여러 팩을 선택하거나 `all`을 입력한 다음 암호 설정/해제를 선택합니다. 암호는 두 번 입력하고 저장 대상을 확인합니다. 변경 후 `02-Validate.cmd`, `03-Publish.cmd` 순서로 게시합니다. 스크립트가 파일 변경만으로 GitHub에 자동 업로드하지는 않습니다.

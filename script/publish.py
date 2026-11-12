@@ -19,7 +19,7 @@ if str(ROOT / 'script') not in sys.path:
 from pack_metadata import catalog_entries, protected
 ORIGIN = 'https://github.com/neokyaru/dooooray-plus.git'
 PROJECT = 'neokyaru/dooooray-plus'
-ROOT_FILES = {'catalog.json', 'emoticon-index.json', '.gitignore', '.gitattributes', 'README.md', 'update-public.pem',
+ROOT_FILES = {'catalog.json', 'emoticon-index.json', '.gitignore', '.gitattributes', '.editorconfig', 'README.md', 'update-public.pem',
               '01-Register-New-Packs.cmd', '02-Validate.cmd', '03-Publish.cmd'}
 EXTENSIONS = {'.png', '.gif', '.jpg', '.jpeg', '.webp'}
 SECRET = re.compile(rb'-----BEGIN (?:RSA |EC |OPENSSH |ENCRYPTED )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|glpat-[A-Za-z0-9_-]{20,}')
