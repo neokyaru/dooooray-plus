@@ -1,5 +1,5 @@
 workspace/
-script/backups/
+/script/
 __pycache__/
 *.pyc
 .venv/
@@ -13,3 +13,8 @@ Thumbs.db
 *.p12
 *.pem
 !update-public.pem
+
+# Local administration tools: never publish
+/01-Register-New-Packs.cmd
+/02-Validate.cmd
+/03-Publish.cmd
