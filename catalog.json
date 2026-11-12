@@ -380,6 +380,16 @@
     {
       "id": "흙수저 프렌즈",
       "manifest": "packs/흙수저 프렌즈/pack.json"
+    },
+    {
+      "id": "내가쓸고양이콘2",
+      "manifest": "packs/내가쓸고양이콘2/pack.json"
+    }
+  ],
+  "lockedPacks": [
+    {
+      "id": "내가쓸고양이콘",
+      "manifest": "packs/내가쓸고양이콘/pack.json"
     }
   ]
 }
