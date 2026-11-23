@@ -384,6 +384,10 @@
     {
       "id": "내가쓸고양이콘2",
       "manifest": "packs/내가쓸고양이콘2/pack.json"
+    },
+    {
+      "id": "젠슨황 실황 라이브콘",
+      "manifest": "packs/젠슨황 실황 라이브콘/pack.json"
     }
   ],
   "lockedPacks": [
